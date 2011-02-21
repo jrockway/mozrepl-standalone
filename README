@@ -1,0 +1,4 @@
+To get a mozrepl running on port 4343 without needing firefox, etc.,
+just type:
+
+`$ xulrunner application.ini`
