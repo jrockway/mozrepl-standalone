@@ -1,3 +1,6 @@
 <?xml version="1.0"?>
-<window id="main" title="My App" width="300" height="300" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<window
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    id="main" title="mozrepl-standalone" width="300" height="300"
+    onload="Components.classes['@hyperstruct.net/mozlab/mozrepl;1'].getService(Components.interfaces.nsIMozRepl).start(4343);">
 </window>
